@@ -1,2 +1,5 @@
-.toUnmodifiableMap : tranfer to Unmodifiable Map
+.toUnmodifiableMap : transfer to Unmodifiable Map
 	java.util.Map  →  Collections.unmodifiableMap($expr$)$END$
+
+.toSynchronizedMap : transfer to synchronized Map
+	java.util.Map  →  Collections.synchronizedMap($expr$)$END$
