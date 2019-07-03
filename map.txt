@@ -1,0 +1,2 @@
+.toUnmodifiableMap : tranfer to Unmodifiable Map
+	java.util.Map  →  Collections.unmodifiableMap($expr$)$END$
