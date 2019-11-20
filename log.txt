@@ -1,0 +1,11 @@
+.linfo : info level log
+	java.lang.String  →  log.info($expr$)$END$
+
+.ldebug : debug level log
+	java.lang.String  →  log.debug($expr$)$END$
+  
+.lerror : error level log
+	java.lang.String  →  log.error($expr$)$END$
+  
+.lwarn : warn level log
+	java.lang.String  →  log.warn($expr$)$END$
